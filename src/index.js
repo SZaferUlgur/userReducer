@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App';
-import AppUseReducer from './AppUseReducer';
+//import AppUseReducer from './AppUseReducer';
+import AppUseState from './AppUseState';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppUseReducer />
+    <AppUseState />
+  {/* <AppUseReducer /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
